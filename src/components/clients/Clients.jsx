@@ -23,7 +23,6 @@ class Clients extends Component {
   render() {
     const { clients } = this.props;
     const { totalOwed } = this.state;
-    console.log("object");
     if (clients) {
       return (
         <div>
